@@ -34,7 +34,8 @@ function playRound(playerSelection, computerSelection){
 
 function game(){
     for(i=1;i<6;i++){
-        let playerSelection = prompt("Please select your weapon","Tigger")
+        //let playerSelection = 'rock'
+        //let playerSelection = prompt("Please select your weapon","Tigger")
         let computerSelection = computerPlay()
         playRound()
         console.log("Round "+ i)

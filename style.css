@@ -1,0 +1,56 @@
+body{
+    background-color:#eba134;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rock{
+    cursor: url("stones.png"), pointer;
+}
+
+#paper{
+    cursor: url("paper-plane.png"), pointer;
+}
+
+#scissors{
+    cursor: url("scissors.png"), pointer;
+}
+
+#replay{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 10px;
+    cursor: url("replay.png"), pointer;
+}
+
+.container {
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0px 20px
+}
+
+p{
+    font-size:15px;
+}
+
+.btn{
+    box-shadow: 0 9px #999;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.btn:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
